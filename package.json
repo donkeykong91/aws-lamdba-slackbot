@@ -1,0 +1,22 @@
+{
+  "name": "aws-lamdba-slackbot",
+  "version": "1.0.0",
+  "description": "Slackbot that will live in AWS Lambda with the help of Serverless Framework library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donkeykong91/aws-lamdba-slackbot.git"
+  },
+  "author": "Daryl Occ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/donkeykong91/aws-lamdba-slackbot/issues"
+  },
+  "homepage": "https://github.com/donkeykong91/aws-lamdba-slackbot#readme",
+  "dependencies": {
+    "@slack/bolt": "^3.6.0"
+  }
+}
